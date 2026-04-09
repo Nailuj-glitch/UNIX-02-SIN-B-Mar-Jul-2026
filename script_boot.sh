@@ -35,11 +35,39 @@ echo $BASH
 echo $PATH
 
 
+git checkout branch name #is used to switch to another branch in your Git repository.
+#An absolute route (or absolute path) is the full path to a file or directory starting from the root of the file system, no matter where you currently are.
+#A relative path (or relative route) is a path that is defined based on your current location (current directory), not from the root.
 
+mkdir proyecto # Creates a new directory (folder) named "proyecto"
 
+ls # Lists the files and directories in the current folder
 
+cd proyecto/ # Moves into the "proyecto" directory
 
+cd .. # Goes up one level to the parent directory
 
+cd /workspaces/UNIX-02-SIN-A-Mar-Jul-2026/proyecto # Moves to this directory using an absolute path (from the root)
 
+cd #change directory to home directory
 
- 
+pwd # Prints the current working directory (shows where you are)
+
+cd / # Changes directory to the root folder (/) 
+#it does not matter what directory you are in, if u put cd it will move you into that
+
+cd /workspaces/   # Changes directory to the /workspaces folder using an absolute path
+# this ~ identifies the home directory
+
+cd /workspaces/UNIX-02-SIN-A-Mar-Jul-2026/   # Changes directory to this specific project folder using an absolute path
+
+cd /home/codespace/   # Changes directory to the codespace user's home directory using an absolute path
+#Environment variables are values stored in the operating system that programs can use to configure their behavior.
+#the most basic thing you can do is write something in one archive and make another one read it
+
+echo $HOME   # Prints the user's home directory path (environment variable)
+
+echo $BASH   # Prints the path to the Bash shell executable
+
+echo $PATH   # Prints the list of directories where the system looks for executable commands
+
