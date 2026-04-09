@@ -87,3 +87,22 @@ ls -a            # Lists all files, including hidden files (starting with .)
 
 ls -all          # Same idea as detailed listing; in most systems this is equivalent to "ls -l -a" or may not be valid as a separate option (correct form is usually "ls -la")
 # . means actual directory, while .. represents the parent directory
+
+.                # Represents the current directory — the folder you are currently in.
+
+..               # Represents the parent directory — the folder one level above the current directory.
+
+# stat .
+File: .
+  Size: 4096            Blocks: 8          IO Block: 4096   directory
+Device: 7,4     Inode: 1572941     Links: 2
+ # Device: 7,4 = indicates the device where the file or directory is stored.
+
+ #POSIX (Portable Operating System Interface) is a set of standards that defines how operating systems should work, especially Unix-like systems (Linux, macOS, etc.).
+
+pwd                  # Prints the current working directory (where you are in the filesystem)
+whoami               # Shows the current logged-in username
+ls -lt               # Lists files in long format, sorted by time (newest first) in this case it shows 0 because we don't have anythign created yet
+ls /etc | head -20   # Lists files in /etc and shows the first 20 lines (top entries)
+ls /dev | tail -20   # Lists files in /dev and shows the last 20 lines (bottom entries)
+
