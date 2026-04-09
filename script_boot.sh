@@ -71,3 +71,19 @@ echo $BASH   # Prints the path to the Bash shell executable
 
 echo $PATH   # Prints the list of directories where the system looks for executable commands
 
+cd /usr/local   # Changes directory to /usr/local, a system folder where locally installed software is stored
+
+ls -lai  or ls -l -a -i # Lists all files (including hidden ones) in long format, shows inode numbers, and displays detailed info like permissions, owner, size, and modification date
+
+man ls   # Opens the manual page for the "ls" command, showing detailed documentation, options, and usage examples
+
+ls --all   # Lists all files in the directory, including hidden files (those starting with .) these directories are hard links
+
+cd /workspaces   # Changes directory to the /workspaces folder
+
+cd /bin          # Changes directory to /bin, which contains essential system binaries (commands)
+
+ls -a            # Lists all files, including hidden files (starting with .)
+
+ls -all          # Same idea as detailed listing; in most systems this is equivalent to "ls -l -a" or may not be valid as a separate option (correct form is usually "ls -la")
+# . means actual directory, while .. represents the parent directory
