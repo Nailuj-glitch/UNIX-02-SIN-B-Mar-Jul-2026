@@ -25,7 +25,7 @@ make menuconfig
 make -j 2
 
 #Al finalizar, se ve un mensaje indicando que 
-bzImage is ready 
+bzImage is ready #Kernel: arch/x86/boot/bzImage is ready  (#1)
 
 # Copia la imagen del kernel a un directorio de trabajo:
 sudo mkdir /boot-files
@@ -41,4 +41,37 @@ cd busybox
 #Configura BusyBox:
 make menuconfig
 
+#Configura BusyBox:
+make menuconfig
+#Cambio importante: Navega a Settings → Build Options y activa Build static binary (no shared libs) presionando la barra espaciadora. Esto evita dependencias externas de librerías. Guarda y sal.
 
+#compila
+make -j 2
+
+#Instala en el directorio del initramfs:
+sudo mkdir /boot-files/initramfs
+sudo make CONFIG_PREFIX=/boot-files/initramfs install
+
+#Paso 5: Crear el initramfs
+
+#El initramfs es el sistema de archivos inicial que el kernel carga en memoria al arrancar.
+cd /boot-files/initramfs
+
+#Crea el archivo init , que es el primer programa que el kernel ejecuta:
+sudo vi init
+
+#Escribe el siguiente contenido:
+
+#!/bin/sh
+
+/bin/sh
+
+#La primera línea le dice al kernel que use el shell para interpretar el archivo. La segunda línea inicia un shell interactivo.
+
+#Limpia y prepara los archivos:
+sudo rm linuxrc
+sudo chmod +x init
+
+#Empaqueta todo en un archivo cpio (el formato que el kernel espera para el initramfs):
+sudo find . | cpio -o -H newc > ../init.cpio
+cd ..
