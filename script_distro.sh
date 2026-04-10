@@ -75,3 +75,24 @@ sudo chmod +x init
 #Empaqueta todo en un archivo cpio (el formato que el kernel espera para el initramfs):
 sudo find . | cpio -o -H newc > ../init.cpio
 cd ..
+
+
+#Paso 6: Crear la imagen de boot
+
+#Cambia a root para los siguientes pasos (simplifica los permisos):
+sudo su
+
+#Crea un archivo vacío de 50 MB que servirá como disco virtual:
+dd if=/dev/zero of=boot bs=1M count=50
+
+#Crea un filesystem FAT en ese archivo (requerido por Syslinux):
+mkfs -t fat boot
+
+#Instala el bootloader Syslinux en la imagen:
+syslinux boot
+
+#Monta la imagen y copia el kernel y el initramfs:
+mkdir m
+mount boot m
+cp bzImage init.cpio m
+umount m
