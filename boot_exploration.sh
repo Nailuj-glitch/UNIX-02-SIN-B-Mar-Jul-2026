@@ -33,3 +33,31 @@ man git #git manual
 # --no-single-branch is given to fetch the histories near the tips of all branches. If you want to clone submodules shallowly,
 # also pass --shallow-submodules.
 
+
+# types of permits in linux
+u # user, owner of the file
+g # group, group members 
+o # others
+
+r # read
+w # write 
+x # execute
+
+if starts with - is a directory
+
+# the first three are for u, the next three are for g and the las three are for others
+
+chmode #to change permisions
+    #symbolic and sintaxis
+
+#symbolic
+chmod [quien][operador][permiso]archivo
+
+quien # u, g, o, o a(all, =)
+
+#Permit chaanges
+touch script.sh 
+chmod +x script.sh #everyone can execute
+chmod u+x script.sh #sonly the owner can execute
+chmod o-r secreto.txt # take away reading to others
+chmod u+rw,go-rwx privado # owner writes/reads, noone else can do anything
