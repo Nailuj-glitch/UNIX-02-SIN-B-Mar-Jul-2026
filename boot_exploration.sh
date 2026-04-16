@@ -9,3 +9,8 @@ ls -h # displays file sizes in an easier-to-read format
 ls -l -a -h
 ls -lah
 
+# to create a directory which has - , you input --
+mkdir -- -rf # -- means that the text after the symbol is just text
+
+rmdir -- -rf # removes the directory
+
