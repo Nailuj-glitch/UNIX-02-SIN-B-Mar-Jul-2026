@@ -57,7 +57,29 @@ quien # u, g, o, o a(all, =)
 
 #Permit chaanges
 touch script.sh 
-chmod +x script.sh #everyone can execute
-chmod u+x script.sh #sonly the owner can execute
+chmod +x script.sh # everyone can execute
+chmod u+x script.sh # only the owner can execute
 chmod o-r secreto.txt # take away reading to others
-chmod u+rw,go-rwx privado # owner writes/reads, noone else can do anything
+chmod u+rw,go-rwx privado # owner writes/reads, no one else can do anything
+
+# Sudo
+
+sudo chmod +x init # give everyone permissions over the init archive
+
+sudo means # substitute user do ; super user do
+
+# sudo only affects the commands beside them
+
+sudo echo "hola">/etc/archivo_protegido # does not work, because sudo only works for "echo"
+
+# using tee
+Es como una T en tuberias (de ahi el nombre)
+
+# 1. entra informacion
+# 2. se divide en dos caminos
+
+echo "hola" | sudo tee /etc/archivo_protegido > /dev/null
+
+ls /etc # to list the etc directory
+
+cat /etc/archivo_protegido # to see the contents of archivo_protegido
