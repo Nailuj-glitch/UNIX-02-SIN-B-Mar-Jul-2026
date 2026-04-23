@@ -110,4 +110,22 @@ echo "$HOME" # expands the variable and shows its content
 
 echo '$HOME' # treats it as a text, it prints it
 
+# exercises
+
+"#!" # shiban, what shell is gonna be interpret the content
+
+echo '#!/bin/sh' > hola.sh
+
+echo 'echo "Hola desde mi primer script"' >> hola.sh
+
+cat hola.sh
+
+/hola.sh
+#Appears as error
+
+#solution
+ls -l hola.sh
+chmod +x hola.sh
+ls -l hola sh
+./hola.sh
 
