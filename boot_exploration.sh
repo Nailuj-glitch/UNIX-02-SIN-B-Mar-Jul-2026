@@ -83,3 +83,21 @@ echo "hola" | sudo tee /etc/archivo_protegido > /dev/null
 ls /etc # to list the etc directory
 
 cat /etc/archivo_protegido # to see the contents of archivo_protegido
+
+#sudo:superuser
+
+sudo #sonly acts upon the command beside it
+shell #a command interpreter 
+
+sudo sh -c 'echo "chao" >> /etc/archivo_protgido'
+
+>> # adds txt to the archive
+
+cat /etc/archivo_protgido # shows content
+
+sudo -i  /  sudo su  /  sudo su - #changes directory to root (superuser terminal)
+
+su - # its the same but requires a password
+
+exit #returns to the normal terminal
+
