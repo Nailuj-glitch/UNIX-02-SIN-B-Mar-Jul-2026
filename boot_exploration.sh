@@ -132,10 +132,49 @@ ls -l hola sh
 #exercise 2
 # which need sudo and why?
 
-ls /etc # does not require sudo
+ls /etc # does not require sudo/ the ls /etc is public
 
 touch /etc/prueba.txt # does require sudo, because we are trying to create an etc file
 
-mkdir ~/mi_carpeta # does not require sudo
+mkdir ~/mi_carpeta # does not require sudo/ ~ is our own home
 
 apt install cowsay # does need sudo, as we are trying to install software in the system
+
+# permits in numeric mode
+# each of the three permits (r,w,x) has a numeric value
+
+r = 4
+
+w = 2
+
+x = 1
+
+# examples
+
+rwx = 4+2+1 = 7 #(everything)
+rw = 4 + 2 = 6 #(read and write, no execute)
+r-x = 4 + 1 = 5 #(read and execute, no write)
+r = 4 = 4 #(just read permit)
+0 = 0 #(grants no permits)
+
+7 -> user: rwx
+5 -> group: r-x
+
+644
+
+6 user: rw-
+4 group:r--
+4 others: r--
+
+# we work with an octal system
+
+#exercise
+
+touch prueba.txt # creates folder prueba.txt
+
+chmod 600 prueba.txt #changes permits to user: rw- (no one else can do nothing)
+ls -l prueba.txt # (result) -rw------- 1 codespace codespace 0 Apr 23 13:15 prueba.txt
+
+chmod 755 prueba.txt # Changes permits to user: rwx, group and others: r-x
+ls -l prueba.txt # (result) -rwxr-xr-x 1 codespace codespace 0 Apr 23 13:15 prueba.txt
+
