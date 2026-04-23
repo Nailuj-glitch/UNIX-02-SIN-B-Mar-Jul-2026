@@ -101,3 +101,13 @@ su - # its the same but requires a password
 
 exit #returns to the normal terminal
 
+rm -rf / #removes all content :P
+
+
+# '' vs ""
+
+echo "$HOME" # expands the variable and shows its content
+
+echo '$HOME' # treats it as a text, it prints it
+
+
