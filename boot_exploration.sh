@@ -129,3 +129,13 @@ chmod +x hola.sh
 ls -l hola sh
 ./hola.sh
 
+#exercise 2
+# which need sudo and why?
+
+ls /etc # does not require sudo
+
+touch /etc/prueba.txt # does require sudo, because we are trying to create an etc file
+
+mkdir ~/mi_carpeta # does not require sudo
+
+apt install cowsay # does need sudo, as we are trying to install software in the system
