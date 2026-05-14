@@ -133,6 +133,10 @@ groups #shows the group
 
 id -u #User id
 
-id -g #Group id
+id -g #Main Group id
 
 id -G #all groups IDs
+
+cat /etc/group #shows all geoups that exist
+
+ cat /etc/group | grep root # grep filters the word besides it
