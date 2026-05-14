@@ -139,4 +139,33 @@ id -G #all groups IDs
 
 cat /etc/group #shows all geoups that exist
 
- cat /etc/group | grep root # grep filters the word besides it
+cat /etc/group | grep root # grep filters the word besides it
+
+
+#create three groups
+groupadd desarrolladores
+
+groupadd -g 2000 operaciones 
+
+groupadd --system servicios_web
+
+# Verify the creation
+grep "desarrolladores\|operaciones\|servicios_web" /etc/group
+desarrolladores:x:1001:
+operaciones:x:2000:
+servicios_web:x:995:
+
+#view the range of GIDs in the system
+grep "GID_MIN\|GID_MAX\|SYS_GID" /etc/login.defs                          
+GID_MIN                  1000
+GID_MAX                 60000
+#SYS_GID_MIN              101
+#SYS_GID_MAX              999
+SUB_GID_MIN                100000
+SUB_GID_MAX             600100000
+
+#the groups of the system have GID less than the minimum of the user
+#In Ubuntu, Typically:
+    #SYS_GID_MIN = 100
+    #SYS_GID_MAX = 999
+    #GID_MIN = 1000
