@@ -165,7 +165,21 @@ SUB_GID_MIN                100000
 SUB_GID_MAX             600100000
 
 #the groups of the system have GID less than the minimum of the user
+
 #In Ubuntu, Typically:
     #SYS_GID_MIN = 100
     #SYS_GID_MAX = 999
     #GID_MIN = 1000
+
+#creation of three other groups
+addgroup diseño
+
+addgroup --git 2100 marketing
+
+addgroup --system cache_web
+
+#verification
+grep "diseno\|marketing\|cache_web" /etc/group
+diseno:x:1002:
+marketing:x:2100:
+cache_web:x:102:
