@@ -183,3 +183,56 @@ grep "diseno\|marketing\|cache_web" /etc/group
 diseno:x:1002:
 marketing:x:2100:
 cache_web:x:102:
+
+
+ usermod -aG desarrolladores $USER
+Modo de uso: usermod [opciones] USUARIO
+
+Opciones:
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -b, --badname                 allow bad names (DEPRECATED)
+  -c, --comment COMENTARIO      nuevo valor del campo GECOS
+  -d, --home DIR_PERSONAL       nuevo directorio personal del nuevo usuario
+  -e, --expiredate FECHA_EXPIR  establece la fecha de caducidad de la
+                                cuenta a FECHA_EXPIR
+  -f, --inactive INACTIVO       establece el tiempo de inactividad después
+                                de que caduque la cuenta a INACTIVO
+  -g, --gid GRUPO               fuerza el uso de GRUPO para la nueva cuenta
+                                de usuario
+  -G, --groups GRUPOS           lista de grupos suplementarios
+  -h, --help                    muestra este mensaje de ayuda y termina
+  -l, --login NOMBRE            nuevo nombre para el usuario
+  -L, --lock                    bloquea la cuenta de usuario
+  -m, --move-home               mueve los contenidos del directorio
+                                personal al directorio nuevo (usar sólo
+                                junto con -d)
+  -o, --non-unique              permite usar UID duplicados (no únicos)
+  -p, --password CONTRASEÑA     usar la contraseña cifrada para la nueva cuenta
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -r, --remove                  remove the user from only the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -R, --root DIR_CHROOT         establece DIR_CHROOT como el directorio
+                                al cual hacer chroot
+  -s, --shell CONSOLA           nueva consola de acceso para la cuenta del
+                                usuario
+  -u, --uid UID                 fuerza el uso del UID para la nueva cuenta
+                                de usuario
+  -U, --unlock                  desbloquea la cuenta de usuario
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+      --selinux-range SERANGE   new SELinux MLS range for the user account
+
+
+usermod -aG diseno
+
+groupadd grupo_temporal
+usermod -aG grupo_temporal $USER
+
+usermod -G desarrolladores $USER #now the ERROR: without using -a
+#this eliminates all secondary groups exept desarrolladores
