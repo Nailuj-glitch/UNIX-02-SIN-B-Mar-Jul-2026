@@ -87,3 +87,24 @@ groupadd grupo_restringido # without sudo because we are in root
 
 gpasswd grupo_restringido
 
+#Create a new user to enter the group "grupo_restringido" temporaly, if the password is known
+useradd -m testing
+     su - testing
+
+
+┏━(Message from Kali developers)
+┃
+┃ This is a minimal installation of Kali Linux, you likely
+┃ want to install supplementary tools. Learn how:
+┃ ⇒ https://www.kali.org/docs/troubleshooting/common-minimum-setup/
+┃
+┗━(Run: “touch ~/.hushlogin” to hide this message)
+#system asks for a pa
+$ newgrp grupo_restringido
+Password: 
+#Verification
+$ id -gn
+grupo_restringido
+
+
+
