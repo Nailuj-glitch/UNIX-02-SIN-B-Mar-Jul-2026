@@ -68,3 +68,10 @@ ls -la ~/
     -rw-r--r-- 1 root root            11180 may 28 12:16 .zshrc
 
 
+# exiting the newgrp subshell
+exit
+
+# Verifying if we returned to the original group
+id -gn
+ root
+
