@@ -24,4 +24,13 @@ touch ~/antes_de_newgrp.txt
 ls -la ~/antes_de_newgrp.txt
  -rw-r--r-- 1 root root 0 may 28 12:53 /root/antes_de_newgrp.txt
 
- 
+ #Changing to group 'desarrolladores'
+
+ newgrp desarrolladores
+
+ apt install util-linux-extra #installing newgrp command
+
+
+# Verify group change
+id -gn
+ desarrolladores
