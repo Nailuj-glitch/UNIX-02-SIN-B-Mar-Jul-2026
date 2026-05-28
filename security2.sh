@@ -75,3 +75,9 @@ exit
 id -gn
  root
 
+# Comparing both files
+
+ls -la ~/antes_de_newgrp.txt ~/dentro_de_newgrp.txt
+    -rw-r--r-- 1 root root            0 may 28 12:53 /root/antes_de_newgrp.txt
+    -rw-r--r-- 1 root desarrolladores 0 may 28 13:13 /root/dentro_de_newgrp.txt
+
