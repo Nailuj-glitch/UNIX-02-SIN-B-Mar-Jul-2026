@@ -229,15 +229,13 @@ RUN cat >> /root/.zshrc <<'EOF'
 __set_prompt() {
     local ec=$?
     if [ $ec -eq 0 ]; then
-        mark='%F{green}✓%f'
+        mark='\[\e[32m\]✓\[\e[0m\]'
     else
-        mark="%F{red}✗ $ec%f"
+        mark="\[\e[31m\]✗ $ec\[\e[0m\]"
     fi
-    PROMPT="%F{cyan}[Julián-Villalba]%f %F{yellow}%1~%f $mark $ "
+    PS1="\[\e[36m\][Julián-Villalba]\[\e[0m\] \[\e[33m\]\W\[\e[0m\] ${mark} \$ "
 }
-precmd() { __set_prompt; }
-EOF
-CMD ["/bin/zsh"]
+PROMPT_COMMAND=__set_prompt
 
 
 
