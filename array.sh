@@ -5,3 +5,11 @@ echo ${IP_ADDRESSES[*]}
 
 echo ${IP_ADDRESSES[0]}
     # 192.168.1.1
+
+unset IP_ADDRESSES [1]
+echo ${IP_ADDRESSES[*]}
+    # 192.168.1.1 192.168.1.3
+
+IP_ADDRESSES[0]="192.168.1.10"
+echo ${IP_ADDRESSES[*]}
+    # 192.168.1.10 192.168.1.3
