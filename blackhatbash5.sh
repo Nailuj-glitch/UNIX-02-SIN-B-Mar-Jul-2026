@@ -1,3 +1,5 @@
+#!/bin/bash
+
 top # muestra en tiempo real los procesos del sistema y el uso de recursos como CPU y memoria.
 
 top& #ejecuta top en segundo plano, permitiendo seguir usando la terminal mientras el comando continúa corriendo
@@ -38,3 +40,13 @@ cat stderr.txt
 
 lzl 2> error.txt
 cat stderr.txt
+
+
+cat < output.txt
+
+cat << EOF
+ Black Hat Bash
+ by No Starch Press
+EOF
+
+
