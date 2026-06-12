@@ -1,12 +1,14 @@
 #!/bin/bash
-for file in example_file*; do
-    if [[ "${file}" == "example_file1" ]]; then
-        echo "Skipping the first file"
-        continue
+
+for file in example_file*; do  # Loop through all files whose names start with "example_file".
+
+    if [[ "${file}" == "example_file1" ]]; then  # Check if the current file is "example_file1".
+
+        echo "Skipping the first file"  # Display a message indicating that the first file is being skipped.
+
+        continue  # Skip the rest of this iteration and move to the next file.
     fi
 
-    echo "${RANDOM}" > "${file}"
-done
-# Este script recorre todos los archivos cuyo nombre comienza con example_file,
-# omite específicamente example_file1 y escribe un número aleatorio en el resto de los archivos,
-# reemplazando cualquier contenido que tuvieran previamente.
+    echo "${RANDOM}" > "${file}"  # Write a random number into the current file, replacing its contents.
+
+done  # End of the for loop.
