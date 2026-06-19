@@ -56,3 +56,5 @@ sed 's/ //g' newlog.txt > newlog1.txt
 
 sed '8,10d' newlog1.txt
 
+sed -n '10, 15p' log.txt
+
