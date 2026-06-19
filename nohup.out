@@ -1,0 +1,298 @@
+Listo: mysite,nostarch.com,failure,2026-06-19 17:27:12
+Listo: mysite,nostarch.com,failure,2026-06-19 17:29:31
+Listo: mysite,nostarch.com,failure,2026-06-19 17:30:28
+Listo: mysite,nostarch.com,failure,2026-06-19 17:34:43
+root       27832  0.0  0.0   2404  1724 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       27873  0.0  0.0   2404  1732 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       27980  0.0  0.0   2404  1780 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       27982  0.0  0.0   1952   836 pts/0    S    17:34   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:34:45
+root       27873  0.0  0.0   2404  1740 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       27980  0.0  0.0   2404  1780 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28000  0.0  0.0   1660    16 pts/0    R    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28002  0.0  0.0   1952   848 pts/0    S    17:34   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:34:53
+root       27980  0.0  0.0   2404  1788 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28000  0.0  0.0   2404  1780 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28046  0.0  0.0   1668   604 pts/0    R    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28048  0.0  0.0   1952   836 pts/0    S    17:34   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:34:55
+root       28000  0.0  0.0   2404  1788 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28046  0.0  0.0   2404  1768 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28070  0.0  0.0   2404  1732 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28072  0.0  0.0   1952   880 pts/0    S    17:34   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:03
+root       28046  0.0  0.0   2404  1776 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28070  0.0  0.0   2404  1732 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28122  0.0  0.0   7616  2536 pts/0    R    17:35   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28124  0.0  0.0   1952   848 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:05
+root       28070  0.0  0.0   2404  1740 pts/0    S    17:34   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28122  0.0  0.0   2404  1744 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28146  0.0  0.0   2404  1748 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28148  0.0  0.0   1952   844 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:13
+root       28122  0.0  0.0   2404  1752 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28146  0.0  0.0   2404  1748 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28199  0.0  0.0   2404  1796 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28201  0.0  0.0   1952   880 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:15
+root       28146  0.0  0.0   2404  1756 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28199  0.0  0.0   2404  1796 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28217  0.0  0.0   1660    16 pts/0    R    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28219  0.0  0.0   1952   892 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:23
+root       28199  0.0  0.0   2404  1804 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28217  0.0  0.0   2404  1776 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28268  0.0  0.0   7616  2560 pts/0    R    17:35   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28270  0.0  0.0   1952   888 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:25
+root       28217  0.0  0.0   2404  1784 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28268  0.0  0.0   2404  1768 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28315  0.0  0.0   2404  1808 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28317  0.0  0.0   1952   888 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:33
+root       28268  0.0  0.0   2404  1776 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28315  0.0  0.0   2404  1808 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28379  0.0  0.0   2404  1760 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28381  0.0  0.0   1952   888 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:35
+root       28315  0.0  0.0   2404  1816 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28379  0.0  0.0   2404  1760 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28399  0.0  0.0   7616  2528 pts/0    R    17:35   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28401  0.0  0.0   1952   852 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:43
+root       28379  0.0  0.0   2404  1768 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28399  0.0  0.0   2404  1776 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28447  0.0  0.0   7616  2592 pts/0    R    17:35   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28449  0.0  0.0   1952   840 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:45
+root       28399  0.0  0.0   2404  1784 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28447  0.0  0.0   2404  1796 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28467  0.0  0.0   2304   844 pts/0    R    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28469  0.0  0.0   1952   860 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:53
+root       28447  0.0  0.0   2404  1804 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28467  0.0  0.0   2404  1748 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28513  0.0  0.0   2400  1728 pts/0    R    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28515  0.0  0.0   1952   876 pts/0    S    17:35   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:35:55
+root       28467  0.0  0.0   2404  1756 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28513  0.0  0.0   2404  1736 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28553  0.0  0.0   2304  1576 pts/0    R    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28555  0.0  0.0   1952   840 pts/0    S    17:35   0:00 grep exercise_solution.sh
+exercise_solution.sh: line 48: [1]-: command not found
+exercise_solution.sh: line 49: [2]+: command not found
+exercise_solution.sh: line 50: root: command not found
+exercise_solution.sh: line 51: root: command not found
+exercise_solution.sh: line 52: root: command not found
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:03
+root       28513  0.0  0.0   2404  1744 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28553  0.0  0.0   2392  1760 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28619  0.0  0.0   7616  2480 pts/0    R    17:36   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28621  0.0  0.0   1952   880 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:05
+root       28553  0.0  0.0   2392  1768 pts/0    S    17:35   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28619  0.0  0.0   2392  1800 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28649  0.0  0.0   7616  2500 pts/0    R    17:36   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28651  0.0  0.0   1952   888 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:13
+root       28619  0.0  0.0   2392  1808 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28649  0.0  0.0   2392  1712 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28689  0.0  0.0   2392  1800 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28691  0.0  0.0   1952   896 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:15
+root       28649  0.0  0.0   2392  1720 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28689  0.0  0.0   2392  1800 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28719  0.0  0.0   2396  1732 pts/0    R    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28721  0.0  0.0   1952   880 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:23
+root       28689  0.0  0.0   2392  1808 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28719  0.0  0.0   2392  1732 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28760  0.0  0.0   2392  1784 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28762  0.0  0.0   1952   852 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:25
+root       28719  0.0  0.0   2392  1740 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28760  0.0  0.0   2392  1784 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28780  0.0  0.0   2392  1732 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28782  0.0  0.0   1952   832 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:33
+root       28760  0.0  0.0   2392  1792 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28780  0.0  0.0   2392  1732 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28828  0.0  0.0   1660    16 pts/0    R    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28830  0.0  0.0   1952   848 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:35
+root       28780  0.0  0.0   2392  1740 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28828  0.0  0.0   2392  1784 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28848  0.0  0.0   7616  2580 pts/0    R    17:36   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28850  0.0  0.0   1952   896 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:43
+root       28828  0.0  0.0   2392  1792 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28848  0.0  0.0   2392  1804 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28896  0.0  0.0   2392  1760 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28898  0.0  0.0   1952   892 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:45
+root       28848  0.0  0.0   2392  1812 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28896  0.0  0.0   2392  1760 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28920  0.0  0.0   2372  1732 pts/0    R    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28922  0.0  0.0   1952   884 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:53
+root       28896  0.0  0.0   2392  1768 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28920  0.0  0.0   2392  1756 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28966  0.0  0.0   2392  1764 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28968  0.0  0.0   1952   880 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:36:55
+root       28920  0.0  0.0   2392  1764 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28966  0.0  0.0   2392  1764 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28995  0.0  0.0   7616  2556 pts/0    R    17:36   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       28997  0.0  0.0   1952   880 pts/0    S    17:36   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:03
+root       28966  0.0  0.0   2392  1772 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       28995  0.0  0.0   2392  1760 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29043  0.0  0.0   7616  2492 pts/0    R    17:37   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       29045  0.0  0.0   1952   860 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:05
+root       28995  0.0  0.0   2392  1768 pts/0    S    17:36   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29043  0.0  0.0   2392  1772 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29072  0.0  0.0   2392  1760 pts/0    R    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29074  0.0  0.0   1952   884 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:13
+root       29043  0.0  0.0   2392  1780 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29072  0.0  0.0   2392  1764 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29119  0.0  0.0   7616  2576 pts/0    R    17:37   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       29121  0.0  0.0   1952   888 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:15
+root       29072  0.0  0.0   2392  1772 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29119  0.0  0.0   2392  1756 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29142  0.0  0.0   7616  2584 pts/0    R    17:37   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       29144  0.0  0.0   1952   880 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:23
+root       29119  0.0  0.0   2392  1764 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29142  0.0  0.0   2392  1788 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29195  0.0  0.0   2304  1236 pts/0    R    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29197  0.0  0.0   1952   880 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:25
+root       29142  0.0  0.0   2392  1796 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29195  0.0  0.0   2392  1792 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29218  0.0  0.0   2392  1800 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29220  0.0  0.0   1952   892 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:33
+root       29195  0.0  0.0   2392  1800 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29218  0.0  0.0   2392  1800 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29268  0.0  0.0   2392  1760 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29270  0.0  0.0   1952   880 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:35
+root       29218  0.0  0.0   2392  1808 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29268  0.0  0.0   2392  1760 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29294  0.0  0.0   1660    12 pts/0    R    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29296  0.0  0.0   1952   876 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:43
+root       29268  0.0  0.0   2392  1768 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29294  0.0  0.0   2392  1800 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29341  0.0  0.0   2352  1592 pts/0    R    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29343  0.0  0.0   1952   880 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:45
+root       29294  0.0  0.0   2392  1808 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29341  0.0  0.0   2392  1736 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29364  0.0  0.0   1660    16 pts/0    R    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29366  0.0  0.0   1952   880 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:53
+root       29341  0.0  0.0   2392  1744 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29364  0.0  0.0   2392  1752 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29411  0.0  0.0   1668   676 pts/0    R    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29413  0.0  0.0   1952   848 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:37:55
+root       29364  0.0  0.0   2392  1760 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29411  0.0  0.0   2392  1776 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29440  0.0  0.0   2392  1784 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29442  0.0  0.0   1952   884 pts/0    S    17:37   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:03
+root       29411  0.0  0.0   2392  1784 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29440  0.0  0.0   2392  1784 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29487  0.0  0.0   2392  1756 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29489  0.0  0.0   1952   880 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:05
+root       29440  0.0  0.0   2392  1792 pts/0    S    17:37   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29487  0.0  0.0   2392  1756 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29517  0.0  0.0   2392  1764 pts/0    R    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29519  0.0  0.0   1952   884 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:13
+root       29487  0.0  0.0   2392  1764 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29517  0.0  0.0   2392  1764 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29578  0.0  0.0   2392  1796 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29580  0.0  0.0   1952   852 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:15
+root       29517  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29578  0.0  0.0   2392  1796 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29603  0.0  0.0   1660    16 pts/0    R    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29605  0.0  0.0   1952   852 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:23
+root       29578  0.0  0.0   2392  1804 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29603  0.0  0.0   2392  1808 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29660  0.0  0.0   2392  1780 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29662  0.0  0.0   1952   840 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:25
+root       29603  0.0  0.0   2392  1816 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29660  0.0  0.0   2392  1780 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29683  0.0  0.0   7616  1404 pts/0    R    17:38   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       29685  0.0  0.0   1952   852 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:33
+root       29660  0.0  0.0   2392  1788 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29683  0.0  0.0   2392  1760 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29736  0.0  0.0   2392  1732 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29738  0.0  0.0   1952   856 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:35
+root       29683  0.0  0.0   2392  1768 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29736  0.0  0.0   2392  1732 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29759  0.0  0.0   2304   864 pts/0    R    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29761  0.0  0.0   1952   860 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:43
+root       29736  0.0  0.0   2392  1740 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29759  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29812  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29814  0.0  0.0   1952   852 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:45
+root       29759  0.0  0.0   2392  1780 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29812  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29835  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29837  0.0  0.0   1952   816 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:53
+root       29812  0.0  0.0   2392  1780 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29835  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29882  0.0  0.0   2304  1240 pts/0    R    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29884  0.0  0.0   1952   880 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:38:55
+root       29835  0.0  0.0   2392  1780 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29882  0.0  0.0   2392  1756 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29910  0.0  0.0   1660    16 pts/0    R    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29912  0.0  0.0   1952   880 pts/0    S    17:38   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:39:03
+root       29882  0.0  0.0   2392  1764 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29910  0.0  0.0   2392  1772 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29951  0.0  0.0   2392  1756 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29953  0.0  0.0   1952   836 pts/0    S    17:39   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:39:05
+root       29910  0.0  0.0   2392  1780 pts/0    S    17:38   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29951  0.0  0.0   2392  1756 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29986  0.0  0.0   2396  1756 pts/0    R    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29988  0.0  0.0   1952   868 pts/0    S    17:39   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:39:13
+root       29951  0.0  0.0   2392  1764 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       29986  0.0  0.0   2392  1752 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30027  0.0  0.0   7616  2540 pts/0    R    17:39   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       30029  0.0  0.0   1952   848 pts/0    S    17:39   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:39:15
+root       29986  0.0  0.0   2392  1760 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30027  0.0  0.0   2392  1788 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30050  0.0  0.0   2392  1772 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30052  0.0  0.0   1952   856 pts/0    S    17:39   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:39:23
+root       30027  0.0  0.0   2392  1796 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30050  0.0  0.0   2392  1772 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30106  0.0  0.0   7616  2564 pts/0    R    17:39   0:00 nohup bash exercise_solution.sh mysite nostarch.com
+root       30108  0.0  0.0   1952   876 pts/0    S    17:39   0:00 grep exercise_solution.sh
+Listo: mysite,nostarch.com,failure,2026-06-19 17:39:25
+root       30050  0.0  0.0   2392  1780 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30106  0.0  0.0   2392  1764 pts/0    S    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30129  0.0  0.0   2368  1704 pts/0    R    17:39   0:00 bash exercise_solution.sh mysite nostarch.com
+root       30131  0.0  0.0   1952   840 pts/0    S    17:39   0:00 grep exercise_solution.sh
