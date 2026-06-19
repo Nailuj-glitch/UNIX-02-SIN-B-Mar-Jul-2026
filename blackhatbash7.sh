@@ -43,3 +43,16 @@ sed 's/Mozilla/Godzilla/g' log.txt > newlog.txt
 
 grep "Godzilla" newlog.txt
 grep "Mozilla" newlog.txt
+
+sed '1d' newlog.txt
+sed -i '1d' newlog.txt
+
+cat newlog.txt
+
+sed -i '$d' newlog.txt
+cat newlog.txt
+
+sed 's/ //g' newlog.txt > newlog1.txt
+
+sed '8,10d' newlog1.txt
+
